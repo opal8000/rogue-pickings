@@ -1,0 +1,133 @@
+/*****BASE STYLES*****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*****GRID*****/
+
+.whole-width{
+  width: 1240px;
+  margin: 0;
+}
+
+.half-width{
+  width: 620px;
+  height: 120px;
+  float: left;
+}
+
+.third-width{
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  width: 340px;
+  height: 180px;
+  float: left;
+}
+
+/*****HEADER*****/
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 23px;
+  padding: 30px 0 15px 20px;
+}
+
+h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  padding: 35px 0 20px 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+li a {
+  margin-left: 24px;
+  color: #77a466;
+  text-decoration: none;
+}
+
+/*****TOP SECTION*****/
+
+img {
+  clear: both;
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+  max-width: 100%;
+  margin: 0 20px;
+}
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  padding: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.intro {
+  line-height: 25px;
+  padding: 0 50px 20px 20px;
+}
+
+/*****BOTTOM SECTION*****/
+
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+#left{
+  margin-left: 20px;
+  padding: 20px 35px 20px 0;
+}
+
+.specials {
+  color: #77a466;
+  line-height: 40px;
+}
+
+#center {
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ededed;
+  padding: 20px 35px;
+}
+
+.reviews {
+  line-height: 21px;
+}
+
+#right {
+  padding: 20px 35px;
+  line-height: 24px;
+}
+
+/*****FOOTER*****/
+
+h3 {
+  clear: both;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  padding: 30px 50px 14px 10px;
+}
+
+h3 span {
+  font-family: 'Dancing Script', cursive;
+  color: #77a466;
+}
